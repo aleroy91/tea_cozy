@@ -1,0 +1,159 @@
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+  margin: 0 0;
+}
+
+h2 {
+  margin: 10px 0 15px 0;
+}
+
+h4 {
+  margin: 10px 0;
+}
+
+a {
+  color: seashell;
+}
+
+#header {
+  position: fixed;
+  padding: 9px 0px;
+  border-bottom: 1px solid seashell;
+  width: 100%;
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: black;
+  z-index: 2;
+}
+
+.logo {
+  padding: 0 10px;
+  display: flex;
+}
+
+.logoimg {
+  height: 50px;
+}
+
+.navigation {
+  margin-right: 20px;
+  position: relative;
+}
+
+#nav {
+  text-decoration: underline;
+  color: seashell;
+  margin-right: 20px;
+}
+
+#mission {
+  padding: 69px 0 0 0;
+  display: flex;
+  justify-content: center;
+}
+
+.mission2 {
+  background-image: url("../images/mission_background.jpg");
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: center;
+  height: 700px;
+  width: 1200px;
+}
+
+.missiontext {
+  width: 100%;
+  background-color: black;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#teaofthemonth {
+  display: flex;
+  justify-content: center;
+  padding: 50px 0 0 0;
+}
+
+.totm {
+  display: inline-flex;
+  width: 1000px;
+  text-align: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.t {
+  display: flex;
+  justify-content: center;
+}
+
+.teas {
+  display: inline-block;
+}
+
+.whatssteeping {
+  width: 300px;
+  height: 200px;
+  margin: 10px 12.5px;
+}
+
+#locations {
+  padding: 60px 0 0 0;
+  margin: 50px auto 0 auto;
+  text-align: center;
+  flex-direction: column;
+  display: flex;
+  height: 500px;
+  width: 1200px;
+  background-image: url("../images/locations_background.jpg");
+}
+
+.loc1 {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 0 40px 0 auto;
+  opacity: 1;
+}
+
+.loc2 {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  margin: 0 40px 0 0;
+  opacity: 1;
+}
+
+.loc3 {
+  display: inline-flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+  background-color: black;
+  width: 300px;
+  height: 300px;
+  opacity: 1;
+}
+
+.bottom {
+  text-align: center;
+  height: 200px;
+}
+
+.footer {
+  margin-left: 20px;
+}
